@@ -6,11 +6,21 @@ function Hero() {
     <section className="hero">
       <div className="hero-text">
         <h1>Hi, I’m Gabriel 👋</h1>
-        <h2>Industrial Engineer & Frontend Developer</h2>
+        <h2>Industrial Engineer | Front-End Developer (React, JavaScript)</h2>
         <p>
-          I build modern, responsive web applications using React and
-          JavaScript.
+          I build clean, responsive web applications with React and modern
+          JavaScript. I bring a strong engineering mindset from
+          manufacturing—focused on quality, efficiency, and continuous
+          improvement.
         </p>
+        <a
+          className="btn primary"
+          href={`${import.meta.env.BASE_URL}Gabriel_Rasguido_CV.pdf`}
+          target="_blank"
+          rel="noreferrer"
+        >
+          Download CV
+        </a>
       </div>
 
       <div className="hero-image">
