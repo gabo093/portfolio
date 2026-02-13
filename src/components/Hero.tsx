@@ -1,3 +1,4 @@
+import profileImg from "../assets/profile.jpeg";
 import "./Hero.css";
 
 function Hero() {
@@ -7,13 +8,13 @@ function Hero() {
         <h1>Hi, I’m Gabriel 👋</h1>
         <h2>Industrial Engineer & Frontend Developer</h2>
         <p>
-          I build modern, responsive web applications using React, JavaScript,
-          and clean UI principles.
+          I build modern, responsive web applications using React and
+          JavaScript.
         </p>
       </div>
 
       <div className="hero-image">
-        <img src="/profile.jpeg" alt="Gabriel Rasguido Copa" />
+        <img src={profileImg} alt="Gabriel Rasguido Copa" />
       </div>
     </section>
   );
