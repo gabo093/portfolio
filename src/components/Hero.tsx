@@ -13,14 +13,16 @@ function Hero() {
           manufacturing—focused on quality, efficiency, and continuous
           improvement.
         </p>
-        <a
-          className="btn primary"
-          href={`${import.meta.env.BASE_URL}Gabriel_Rasguido_CV.pdf`}
-          target="_blank"
-          rel="noreferrer"
-        >
-          Download CV
-        </a>
+        <div className="hero-actions">
+          <a
+            className="btn primary"
+            href={`${import.meta.env.BASE_URL}Gabriel_Rasguido_CV.pdf`}
+            target="_blank"
+            rel="noreferrer"
+          >
+            Download CV
+          </a>
+        </div>
       </div>
 
       <div className="hero-image">

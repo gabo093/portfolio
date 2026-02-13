@@ -7,32 +7,40 @@ function Skills() {
 
       <div className="skills-grid">
         <div className="skill-card">
-          <h3>Frontend</h3>
+          <h3>Manufacturing & Test (Jabil)</h3>
           <ul>
-            <li>React</li>
-            <li>TypeScript</li>
-            <li>JavaScript (ES6+)</li>
-            <li>HTML5</li>
-            <li>CSS3</li>
+            <li>
+              Rack server testing, verification, fault diagnosis, and rework
+              procedures
+            </li>
+            <li>
+              Quality inspection (Body Check) and build verification to
+              engineering specs
+            </li>
+            <li>
+              Server/rack assembly, hardware integration, and cabling to
+              technical drawings
+            </li>
+            <li>Test documentation and failure analysis (iFactory, Excel)</li>
           </ul>
         </div>
 
         <div className="skill-card">
-          <h3>Backend</h3>
+          <h3>Process Improvement</h3>
           <ul>
-            <li>Node.js</li>
-            <li>REST APIs</li>
-            <li>Basic SQL</li>
+            <li>Lean / Kaizen continuous improvement</li>
+            <li>A3 problem solving, defect reduction, workflow optimisation</li>
+            <li>Data analysis & reporting for quality and productivity</li>
           </ul>
         </div>
 
         <div className="skill-card">
-          <h3>Tools & Methods</h3>
+          <h3>Software & Development</h3>
           <ul>
-            <li>Git & GitHub</li>
-            <li>Vite</li>
-            <li>Responsive Design</li>
-            <li>Kaizen / Continuous Improvement</li>
+            <li>React (component-based UI), JavaScript (ES6+)</li>
+            <li>TypeScript (basic), Git/GitHub, Vite, VS Code</li>
+            <li>Java (Spring Boot foundations), MySQL fundamentals</li>
+            <li>Debugging & troubleshooting mindset</li>
           </ul>
         </div>
       </div>
