@@ -2,11 +2,10 @@ import "./SolarGallery.css";
 
 import s1 from "../assets/solar/solar-01.jpg";
 import s2 from "../assets/solar/solar-02.jpg";
-import s3 from "../assets/solar/solar-03.jpg";
 import s4 from "../assets/solar/solar-04.jpg";
 import s5 from "../assets/solar/solar-05.jpg";
 
-const photos = [s1, s2, s3, s4, s5];
+const photos = [s1, s2, s4, s5];
 
 function SolarGallery() {
   return (
